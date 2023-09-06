@@ -10,6 +10,7 @@ class LoginScreen extends StatefulWidget {
 class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
+<<<<<<< HEAD
     TextEditingController txtConUser = TextEditingController();
     TextEditingController txtConPass = TextEditingController();
 
@@ -75,5 +76,8 @@ class _LoginScreenState extends State<LoginScreen> {
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: btnEntrar,
     );
+=======
+    return Container();
+>>>>>>> 9eb9b03 (Primer commit)
   }
 }
